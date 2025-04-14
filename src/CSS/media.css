@@ -916,7 +916,7 @@
         /* HEADER */
         header nav .second-header .logo-header{
             width: 350px;
-            height: 60px;
+            height: auto;
         }
         header nav .second-header .desktop-menu .list-menu a li{
             font-size: 1.2rem;
@@ -953,7 +953,7 @@
         /* FOOTER */
         footer .footer-column .logo-footer{
             width: 350px;
-            height: 70px;
+            height: auto;
         }
         /* FOOTER */
     }

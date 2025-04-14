@@ -71,8 +71,8 @@ header nav .second-header .logo-header a{
   height: 100%;
 }
 header nav .second-header .logo-header a img{
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: auto;
 }
 header nav .second-header .desktop-menu{
   width: 70%;
@@ -148,7 +148,7 @@ header nav .second-header .mobile-menu-icon i:hover{
   }
   header nav .second-header .logo-header{
     width: 250px;
-    height: 40px;
+    height: auto;
   }
 
   header nav .second-header .mobile-menu-icon{
@@ -3070,8 +3070,8 @@ footer .footer-column .logo-footer{
   align-items: center;
 }
 footer .footer-column .logo-footer img{
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: auto;
   object-fit: contain;
 }
 footer .footer-column h2{
@@ -3086,7 +3086,7 @@ footer .footer-column .list-footer{
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
   gap: 5px;
 }
@@ -3100,7 +3100,7 @@ footer .footer-column .list-footer li{
   display: flex;
   gap: 5px;
 }
-footer .footer-column .list-footer a{
+footer .footer-column .list-footer li a{
   text-decoration: none;
   color: unset;
 }
@@ -3250,6 +3250,7 @@ footer .footer-column .list-footer .list-icons-footer li:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .banner-cookies .buttons-banner div a{
   width: 100%;
