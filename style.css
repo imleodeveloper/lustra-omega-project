@@ -1720,7 +1720,7 @@ main{
 
 .blog-page .blog-content .sidecolumn-content{
   width: 25%;
-  height: 80vh;
+  height: auto;
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -3078,7 +3078,7 @@ footer .footer-column h2{
   font-size: 1.2rem;
   width: 100%;
   height: auto;
-  color: #0296e0;
+  color: #0074ad;
   font-weight: bold;
 }
 footer .footer-column .list-footer{
