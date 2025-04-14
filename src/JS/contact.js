@@ -104,17 +104,19 @@ infosContact.forEach((info, index) => {
     aSocialInsta.setAttribute("href", "https://instagram.com/lustraomega/");
     aSocialInsta.setAttribute("target", "_blank");
     aSocialInsta.setAttribute("rel", "noopener noreferrer");
+    aSocialInsta.setAttribute("aria-label", "Instagram da Lustra Ômega");
     const socialInstagram = document.createElement("i");
     socialInstagram.classList.add("mdi", "mdi-instagram");
     aSocialInsta.appendChild(socialInstagram);    
     socialSpanInsta.appendChild(aSocialInsta);
-
-    // Cria o primeiro span com ícone do Facebppl
+    
+    // Cria o primeiro span com ícone do Facebook
     const socialSpanFacebook = document.createElement("span");
     const aSocialFacebook = document.createElement("a");
     aSocialFacebook.setAttribute("href", "https://facebook.com/lustraomega/");
     aSocialFacebook.setAttribute("target", "_blank");
     aSocialFacebook.setAttribute("rel", "noopener noreferrer");
+    aSocialFacebook.setAttribute("aria-label", "Facebook da Lustra Ômega");
     const socialFacebook = document.createElement("i");
     socialFacebook.classList.add("mdi", "mdi-facebook");
     aSocialFacebook.appendChild(socialFacebook);
