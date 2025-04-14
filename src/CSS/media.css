@@ -1,0 +1,1163 @@
+@media (orientation: portrait){
+    @media (min-width: 320px){
+        body{
+            overflow-x: hidden;
+        }
+
+
+        /*SLIDE*/
+        .swiper-button-prev,
+        .swiper-button-next {
+            width: 25px !important;
+            height: 25px !important;
+        }
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+            font-size: 1rem !important;
+        }
+        /* PRIMEIRO SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h1, 
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h2{
+            font-size: 1.5rem;
+            width: 80%;
+        }
+        /* PRIMEIRO SLIDE HOME */
+        
+        /* SEGUNDO SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom{
+            gap: 20px 10px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section{
+            width: 50%;
+            gap: 10px 0px 0px 0px;
+            padding: 2px;
+            max-width: 250px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section h3{
+            font-size: 0.8rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section p{
+            width: 100%;
+            font-size: 0.8rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section .area-button-slide button{
+            font-size: 0.8rem;
+            text-transform: none;
+        }
+        /* SEGUNDO SLIDE HOME */
+        /* TERCEIRO SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h2{
+            font-size: 1.2rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h3{
+            font-size: 1.8rem;
+            padding-bottom: 20px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 .area-button-slide button{
+            width: 30%;
+        }
+        /* TERCEIRO SLIDE HOME */
+
+        /*CONTEÚDO HOME*/
+        .article-home{
+            gap: 100px;
+        }
+        .article-home .content-home{
+            flex-direction: column;
+            height: auto;
+            gap: 20px;
+        }
+        .article-home .content-home div:nth-child(1){
+            width: 100%;
+        }
+        .article-home .content-home div:nth-child(2){
+            width: 100%;
+        }
+        .article-home .content-home div p{
+            width: 100%;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(1){
+            width: 30%;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(2){
+            width: 30%;
+        }
+        /*CONTEÚDO HOME*/
+
+
+        /* PÁGINA SOBRE */
+        .about-page .about-section .slogan{
+            width: 99%;
+        }
+        .about-page .about-section .about-content{
+            height: auto;
+            flex-direction: column;
+        }
+        .about-page .about-section .about-content .div-about{
+            width: 90%;
+            height: auto;
+            padding-top: 50px;
+        }
+        .about-page .about-section .about-content .div-about-2{
+            width: 90%;
+            padding-bottom: 100px;
+        }
+        .about-page .about-section .about-content .div-about-2 p{
+            width: 100%;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about{
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about{
+            width: 40%;
+            height: auto;
+        }
+
+        .about-page .about-section .about-content .item-expanded-about div{
+            width: 95%;
+        }
+        .about-page .about-section .about-content .item-expanded-about div p{
+            width: 95%;
+        }
+
+
+        .about-page .about-section-2{
+            height: auto;
+            padding: 100px 0px;
+        }
+        .about-page .about-section-2 .text-about-section-2{
+            width: 100%;
+            height: auto;
+            padding: 0;
+            padding-left: 10px;
+        }
+        /* PÁGINA SOBRE */
+        
+        /* PÁGINA COMERCIALIZACAO */
+        .service-page .service-title h1{
+            font-size: 2.5rem;
+        }
+
+        .service-page .service-section{
+            padding-top: 100px;
+        }
+
+        .service-page .service-section .service-filter button{
+            width: 90%;
+        }
+
+        .service-page .service-section .service-wrapper .service-content{
+            flex-direction: column !important;
+        }
+        .service-page .service-section .service-wrapper .service-content.active {
+            max-height: 500px;
+            position: relative;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text{
+            width: 100%;
+            height: auto;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-image{
+            width: 100%;
+            height: auto;
+        }
+
+        .service-page .service-contact .div-contact-service div button:nth-child(1), 
+        .service-page .service-contact .div-contact-service div button:nth-child(2){
+            width: 30%;
+          }
+
+        /* PÁGINA COMERCIALIZACAO */
+
+        /* PÁGINA CONTATO */
+        .contact-page .contact-content{
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 50px;
+            padding: 100px 0px; 
+        }
+        .contact-page .contact-content .form-contact{
+            width: 90%;
+        }
+        .contact-page .contact-content .form-contact form{
+            width: 100%;
+        }
+        .contact-page .contact-content .info-contact{
+            width: 90%;
+            padding: 0;
+        }
+
+        .g-recaptcha{
+            transform: scale(0.8);
+        }
+
+        /* PÁGINA CONTATO */
+
+        /* PÁGINA AGRADECIMENTO */
+        .thanks-page{
+            height: auto;
+        }
+        .thanks-page section{
+            width: 70%;
+            height: auto;
+            padding: 100px 0px;
+        }
+        /* PÁGINA AGRADECIMENTO */
+
+        /* PÁGINA BLOG */
+        .blog-page .blog-content{
+            flex-direction: column-reverse;
+        }
+        .blog-page .blog-content .content{
+            width: 100%;
+        }
+        .blog-page .blog-content .content .item-blog{
+            width: 100%;
+        }
+
+        .blog-page .blog-content .sidecolumn-content{
+            width: 100%;
+            height: auto;
+            padding-bottom: 50px;
+        }
+        .blog-page .blog-content .sidecolumn-content aside{
+            align-items: center;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search{
+            justify-content: center;
+        }
+
+        .blog-page .blog-content .content .item-blog .img-item div .logo-item{
+            width: 200px;
+            height: 40px;
+        }
+        /* PÁGINA BLOG */
+        
+        /* POSTS DO BLOG */
+
+        .blog-page .blog-title-post h1{
+            font-size: 2rem;
+            width: 90%;
+        }
+
+        .blog-page .blog-content .content-post{
+            width: 100%;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item{
+            padding: 0px;
+        }
+        /* POSTS DO BLOG */
+
+
+
+
+
+        /* FOOTER */
+        footer{
+            flex-direction: column;
+            gap: 10px;
+            padding-bottom: 100px;
+        }
+        footer .footer-column{
+            width: 100%;
+            height: auto;
+            padding-left: 10px;
+        }
+        /* FOOTER */
+        
+    }
+    @media (min-width: 428px){
+        /* 2°SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section h3{
+            font-size: 1.2rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section p{
+            width: 90%;
+            font-size: 1rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section .area-button-slide button{
+            font-size: 1rem;
+        }
+        /* 2°SLIDE HOME */
+    }
+    @media(min-width: 768px){
+        /* PRIMEIRO SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h1, 
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h2{
+            font-size: 2rem;
+            width: 95%;
+        }
+        /* PRIMEIRO SLIDE HOME */
+        /* SEGUNDO SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section{
+            max-width: 300px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section h3{
+            font-size: 1.3rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section p{
+            width: 90%;
+            font-size: 1rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section .area-button-slide button{
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        /* SEGUNDO SLIDE HOME */
+
+        /* TERCEIRO SLIDE HOME */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h2{
+            font-size: 1.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h3{
+            font-size: 2.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 .area-button-slide button{
+            font-size: 1.2rem;
+            width: 25%;
+        }
+        /* TERCEIRO SLIDE HOME */
+
+        /*CONTEÚDO HOME*/
+        .article-home .content-home div{
+            gap: 30px;
+        }
+        .article-home .content-home div h2{
+            font-size: 1.5rem;
+        }
+        .article-home .content-home div h3{
+            font-size: 2rem;
+        }
+        .article-home .content-home div p{
+            font-size: 1.2rem;
+        }
+        .article-home .content-home div button{
+            font-size: 1.2rem;
+        }
+
+        .article-home .contact-home .div-contact-home h2{
+            font-size: 3rem;
+        }
+        .article-home .contact-home .div-contact-home p{
+            font-size: 1.2rem;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(1),
+        .article-home .contact-home .div-contact-home div button:nth-child(2){
+            font-size: 1.2rem;
+        }
+        /*CONTEÚDO HOME*/
+
+        /* PÁGINA ABOUT */
+        .about-page .about-section .slogan{
+            width: 80%;
+        }
+        .about-page .about-section .about-content .div-about-2 h2{
+            font-size: 1.3rem;
+        }
+        .about-page .about-section .about-content .div-about-2 h3{
+            font-size: 1.7rem;
+        }
+        .about-page .about-section .about-content .div-about-2 p{
+            font-size: 1.2rem;
+        }
+        .about-page .about-section .about-content .item-expanded-about div h4{
+            font-size: 1.5rem;
+        }
+        .about-page .about-section .about-content .item-expanded-about div p{
+            font-size: 1.2rem;
+        }
+        .about-page .about-section-2 .text-about-section-2 div button{
+            width: 25%;
+        }
+        /* PÁGINA ABOUT */
+
+        /* PÁGINA BLOG */
+        .blog-page .blog-content{
+            flex-direction: row;
+        }
+        .blog-page .blog-content .content{
+            width: 65%;
+        }
+        .blog-page .blog-content .sidecolumn-content{
+            width: 35%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search input{
+            width: 65%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search button{
+            width: 15%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .tags{
+            width: 80%;
+        }
+        /* PÁGINA BLOG */
+    }
+}
+@media (orientation: landscape){
+    @media (min-width: 320px){
+        /* PÁGINA HOME */
+        .swiper-button-prev,
+        .swiper-button-next {
+            top: 70% !important;
+        }
+        
+        /* 1° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h1, 
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h2{
+            font-size: 1.3rem;
+            width: 90%;
+        }
+        /* 1° SLIDER */
+        
+        /* 3° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3{
+            top: 55%;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h2{
+            font-size: 1.1rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h3{
+            font-size: 1.5rem;
+        }
+        /* 3° SLIDER */
+
+        .article-home{
+            gap: 100px;
+        }
+        .article-home .content-home{
+            height: auto;
+            flex-direction: column;
+            gap: 35px;
+        }
+        .article-home .content-home div,
+        .article-home .content-home div:nth-child(1){
+            width: 100%;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(1),
+        .article-home .contact-home .div-contact-home div button:nth-child(2){
+            width: 20%;
+        }
+        /* PÁGINA HOME */
+
+        /* PÁGINA SOBRE */
+        .about-page .about-section{
+            gap: 20px;
+            padding-bottom: 100px;
+        }
+        .about-page .about-section .about-content{
+            height: auto;
+            flex-direction: column;
+        }
+        .about-page .about-section .about-content .div-about{
+            width: 90%;
+        }
+        .about-page .about-section .about-content .div-about-2{
+            width: 90%;
+        }
+        .about-page .about-section .about-content .item-expanded-about div{
+            width: 90%;
+        }
+
+        .about-page .about-section-2{
+            height: auto;
+            padding-bottom: 50px;
+        }
+        .about-page .about-section-2 .text-about-section-2{
+            width: 100%;
+            padding: 50px 0px 0px 50px;
+        }
+        /* PÁGINA SOBRE */
+
+        /* PÁGINA BLOG */
+        .blog-page .blog-content .content{
+            width: 65%;
+        }
+        .blog-page .blog-content .content .item-blog{
+            width: 100%;
+        }
+        .blog-page .blog-content .sidecolumn-content{
+            width: 35%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search input{
+            width: 60%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search button{
+            width: 20%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .tags{
+            width: 80%;
+        }
+        /* PÁGINA BLOG */
+
+        /* PÁGINA COMERCIALIZAÇÃO */
+        .service-page .service-section .service-filter{
+            flex-direction: column;
+        }
+        .service-page .service-section .service-filter button{
+            width: 60%;
+        }
+        .service-page .service-contact .div-contact-service div button:nth-child(1),
+        .service-page .service-contact .div-contact-service div button:nth-child(2){
+            width: 20%;
+        }
+        /* PÁGINA COMERCIALIZAÇÃO */
+        
+        /* PÁGINA CONTATO */
+        .contact-page .contact-content{
+            flex-direction: column-reverse;
+            gap: 50px;
+        }
+        .contact-page .contact-content .form-contact{
+            width: 100%;
+        }
+        .contact-page .contact-content .info-contact{
+            width: 100%;
+        }
+        /* PÁGINA CONTATO */
+        
+        /* PÁGINA AGRADECIMENTO */
+        .thanks-page{
+            height: auto;
+            padding-bottom: 100px;
+        }
+        /* PÁGINA AGRADECIMENTO */
+
+        /* FOOTER */
+        footer{
+            flex-direction: column;
+            gap: 10px;
+            padding-bottom: 100px;
+        }
+        footer .footer-column{
+            width: 100%;
+            height: auto;
+            padding-left: 20px;
+        }
+        /* FOOTER */
+    }
+    @media (min-width: 1024px){
+        /* PÁGINA HOME */
+        .swiper-button-prev,
+        .swiper-button-next {
+            top: 60% !important;
+        }   
+        /* 1° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h1, 
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h2{
+            font-size: 2rem;
+        }
+        /* 1° SLIDER */
+
+        /* 3° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3{
+            top: 40%;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h2{
+            font-size: 1.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h3{
+            font-size: 3rem;
+        }
+        /* 3° SLIDER */
+
+        .article-home{
+            gap: unset;
+        }
+        .article-home .content-home{
+            height: 100vh;
+            flex-direction: row;
+            gap: 5%;
+        }
+        .article-home .content-home div{
+            width: 40%;
+        }
+        .article-home .content-home div:nth-child(1){
+            width: 50%;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(1),
+        .article-home .contact-home .div-contact-home div button:nth-child(2){
+            width: 15%;
+        }
+        /* PÁGINA HOME */
+
+        /* PÁGINA SOBRE */
+        .about-page .about-section{
+            gap: unset;
+            padding-bottom: unset;
+        }
+        .about-page .about-section .about-content{
+            height: 100vh;
+            flex-direction: row;
+        }
+        .about-page .about-section .about-content .div-about{
+            width: 40%;
+        }
+        .about-page .about-section .about-content .div-about-2{
+            width: 50%;
+        }
+        .about-page .about-section .about-content .item-expanded-about div{
+            width: 40%;
+        }
+
+        .about-page .about-section-2{
+            height: 100vh;
+            padding-bottom: unset;
+        }
+        .about-page .about-section-2 .text-about-section-2{
+            width: 50%;
+            padding: 50px 0px 0px 100px;
+        }
+        /* PÁGINA SOBRE */
+        
+        /* PÁGINA BLOG */
+        .blog-page .blog-content .content .item-blog{
+            width: 80%;
+        }
+        /* PÁGINA BLOG */
+        
+        /* PÁGINA COMERCIALIZAÇÃO */
+        .service-page .service-section .service-filter{
+            flex-direction: row;
+        }
+        .service-page .service-section .service-filter button{
+            width: auto;
+        }
+        .service-page .service-contact .div-contact-service div button:nth-child(1),
+        .service-page .service-contact .div-contact-service div button:nth-child(2){
+            width: 15%;
+        }
+        /* PÁGINA COMERCIALIZAÇÃO */
+
+        /* PÁGINA CONTATO */
+        .contact-page .contact-content{
+            flex-direction: unset;
+            gap: unset;
+        }
+        .contact-page .contact-content .form-contact{
+            width: 50%;
+        }
+        .contact-page .contact-content .info-contact{
+            width: 50%;
+        }
+        /* PÁGINA CONTATO */
+            
+        /* PÁGINA AGRADECIMENTO */
+        .thanks-page{
+            height: 100vh;
+            padding-bottom: unset;
+        }
+        /* PÁGINA AGRADECIMENTO */
+    }
+    @media (min-width: 1280px){
+        /* PÁGINA SOBRE */
+        .about-page .about-section .about-content .div-about-2{
+            width: 40%;
+        }
+        /* PÁGINA SOBRE */
+
+        /* PÁGINA BLOG */
+        .blog-page .blog-content .content{
+            width: 75%;
+        }
+        .blog-page .blog-content .content .item-blog{
+            width: 45%;
+        }
+        .blog-page .blog-content .sidecolumn-content{
+            width: 25%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search input{
+            width: 50%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .input-search button{
+            width: 10%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .tags{
+            width: 60%;
+        }
+        /* PÁGINA BLOG */
+
+        /* FOOTER */
+        footer{
+            flex-direction: row;
+            padding: unset;
+            gap: 50px;
+        }
+        footer .footer-column{
+            width: 25%;
+            height: 400px;
+            padding-left: unset;
+        }
+        /* FOOTER */
+
+        .g-recaptcha{
+            transform: scale(1);
+        }
+    }
+    @media (min-width: 1560px){
+        /* PÁGINA HOME */
+        /* 1° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h1, 
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h2{
+            font-size: 3rem;
+        }
+        /* 1° SLIDER */
+
+        /* 2° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 h2{
+            font-size: 2.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section{
+            max-width: 450px;
+            padding: 40px 0px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section h3{
+            font-size: 1.7rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section p{
+            font-size: 1.3rem;
+        }
+        /* 2° SLIDER */
+
+        /* 3° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h2{
+            font-size: 2rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h3{
+            font-size: 3.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 .area-button-slide button{
+            font-size: 1.2rem;
+        }
+        /* 3° SLIDER */
+
+        .article-home .content-home div h2{
+            font-size: 1.5rem;
+        }
+        .article-home .content-home div h3{
+            font-size: 2rem;
+        }
+        .article-home .content-home div p{
+            font-size: 1.2rem;
+        }
+        .article-home .content-home div button{
+            font-size: 1.2rem;
+        }
+
+        .article-home .contact-home .div-contact-home h2{
+            font-size: 3rem;
+        }
+        .article-home .contact-home .div-contact-home p{
+            font-size: 1.3rem;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(1),
+        .article-home .contact-home .div-contact-home div button:nth-child(2){
+            font-size: 1.15rem;
+        }
+        /* PÁGINA HOME */
+
+
+        /* PÁGINA SOBRE */
+        .about-page .about-section .about-content .div-about .img-about{
+            height: 700px;
+        }
+        .about-page .about-section .slogan{
+            font-size: 2rem;
+        }
+        .about-page .about-section .about-content .div-about-2 h2{
+            font-size: 1.5rem;
+        }
+        .about-page .about-section .about-content .div-about-2 h3{
+            font-size: 2rem;
+        }
+        .about-page .about-section .about-content .div-about-2 p{
+            font-size: 1.3rem;
+        }
+        .about-page .about-section .about-content .item-expanded-about div h4{
+            font-size: 1.8rem;
+        }
+        .about-page .about-section .about-content .item-expanded-about div p{
+            font-size: 1.3rem;
+            width: 95%;
+        }
+
+        .about-page .about-section-2 .text-about-section-2 div h3{
+            font-size: 3rem;
+        }
+        .about-page .about-section-2 .text-about-section-2 div p{
+            font-size: 1.3rem;
+        }
+        .about-page .about-section-2 .text-about-section-2 div button{
+            font-size: 1.2rem;
+        }
+        /* PÁGINA SOBRE */
+
+        /* PÁGINA BLOG */
+        .blog-page .blog-content .content .item-blog .text-item h2{
+            font-size: 1.7rem;
+        }
+        .blog-page .blog-content .content .item-blog .text-item p{
+            font-size: 1.2rem;
+        }
+        .blog-page .blog-content .content .item-blog .links-item button a{
+            font-size: 1.05rem;
+        }
+        /* PÁGINA BLOG */
+
+        /* PÁGINA POST DO BLOG */
+        .blog-page .blog-content .content-post .item-blog-full .author-item{
+            font-size: 0.9rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item h2{
+            font-size: 2.5rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item h3{
+            font-size: 2rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item p{
+            font-size: 1.2rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item ul,
+        .blog-page .blog-content .content-post .item-blog-full .text-item ol{
+            font-size: 1.2rem;
+        }
+        /* PÁGINA POST DO BLOG */
+
+        /* PÁGINA COMERCIALIZAÇÃO */
+        .service-page .service-section .service-filter button{
+            font-size: 1.1rem;
+        }
+        .service-page .service-section .service-titles h2{
+            font-size: 1.8rem;
+        }
+        .service-page .service-section .service-titles h3{
+            font-size: 1.4rem;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text h4{
+            font-size: 1.5rem;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text h5{
+            font-size: 1.3rem;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text p{
+            font-size: 1.2rem;
+        }
+
+        .service-page .service-contact .div-contact-service h2{
+            font-size: 3rem;
+        }
+        .service-page .service-contact .div-contact-service p{
+            font-size: 1.3rem;
+        }
+        .service-page .service-contact .div-contact-service div button:nth-child(1),
+        .service-page .service-contact .div-contact-service div button:nth-child(2){
+            font-size: 1.15rem;
+        }
+        /* PÁGINA COMERCIALIZAÇÃO */
+
+        /* PÁGINA CONTATO */
+        .contact-page .contact-content .form-contact form .form-check label a{
+            font-size: 1.1rem;
+        }
+        .contact-page .contact-content .form-contact form .formGroup label{
+            font-size: 1rem;
+        }
+        .contact-page .contact-content .form-contact form .formGroup button{
+            font-size: 1rem;
+        }
+        .contact-page .contact-content .info-contact div p{
+            font-size: 1.2rem;
+        }
+        .contact-page .contact-content .info-contact .item-contact a .info p{
+            font-size: 1.1rem;
+        }
+        /* PÁGINA CONTATO */
+
+        /* PÁGINA AGRADECIMENTO */
+        .thanks-page section{
+            gap: 100px;
+        }
+        .thanks-page section div h1{
+            font-size: 2.5rem;
+        }
+        .thanks-page section div h2,
+        .thanks-page section div h4{
+            font-size: 1.5rem;
+        }
+        .thanks-page section div h3{
+            font-size: 2rem;
+        }
+        .thanks-page section div span button:hover{
+            width: 150px;
+        }
+        /* PÁGINA AGRADECIMENTO */
+        
+        /* PÁGINA PRIVACIDADE */
+        .privacy-page .privacy-content .privacy-container h3{
+            font-size: 1.8rem;
+        }
+        .privacy-page .privacy-content .privacy-container p,
+        .privacy-page .privacy-content .privacy-container ul li{
+            font-size: 1.2rem;
+        }
+        /* PÁGINA PRIVACIDADE */
+
+        /* FOOTER */
+        footer .footer-column h2{
+            font-size: 1.4rem;
+        }
+        footer .footer-column .list-footer li{
+            font-size: 1.15rem;
+        }
+        /* FOOTER */
+    }
+    @media (min-width: 1920px){
+        /* HEADER */
+        header nav .second-header .logo-header{
+            width: 350px;
+            height: 60px;
+        }
+        header nav .second-header .desktop-menu .list-menu a li{
+            font-size: 1.2rem;
+        }
+        /* HEADER */
+
+        /* PÁGINA SOBRE */
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about{
+            width: 120px;
+            height: 120px;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about i{
+            font-size: 3rem;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about h4{
+            font-size: 1.3rem;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about div{
+            width: 120%;
+            height: 35px;
+            font-size: 1.15rem;
+        }
+        /* PÁGINA SOBRE */
+        
+        /* PÁGINA BLOG */
+        .blog-page .blog-content .content .item-blog{
+            width: 30%;
+        }
+        .blog-page .blog-content .sidecolumn-content aside .tags div a{
+            font-size: 1.15rem;
+        }
+        /* PÁGINA BLOG */
+
+        /* FOOTER */
+        footer .footer-column .logo-footer{
+            width: 350px;
+            height: 70px;
+        }
+        /* FOOTER */
+    }
+    @media (min-width: 2560px){
+        /* PÁGINA HOME */
+        /* 1° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1{
+            max-width: 1500px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h1, 
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-1 h2{
+            font-size: 3.5rem;
+        }
+        /* 1° SLIDER */
+
+        /* 2° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 h2{
+            font-size: 3rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section{
+            max-width: 450px;
+            height: auto;
+            padding: 20px 0px;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section h3{
+            font-size: 2rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section p{
+            font-size: 1.4rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-2 .slide-content-custom .slide-section .area-button-slide button{
+            font-size: 1.15rem;
+        }
+        /* 2° SLIDER */
+
+        /* 3° SLIDER */
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h2{
+            font-size: 2.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 h3{
+            font-size: 3.5rem;
+        }
+        .article-home .slide-home .swiper-container .swiper-wrapper .swiper-slide .slide-item .slide-text-3 .area-button-slide button{
+            font-size: 1.35rem;
+        }
+        /* 3° SLIDER */
+
+        .article-home .content-home div h2{
+            font-size: 1.7rem;
+        }
+        .article-home .content-home div h3{
+            font-size: 2.2rem;
+        }
+        .article-home .content-home div p{
+            font-size: 1.35rem;
+        }
+        .article-home .content-home div button{
+            font-size: 1.35rem;
+        }
+
+        .article-home .contact-home .div-contact-home h2{
+            font-size: 3.5rem;
+        }
+        .article-home .contact-home .div-contact-home p{
+            font-size: 1.5rem;
+        }
+        .article-home .contact-home .div-contact-home div button:nth-child(1),
+        .article-home .contact-home .div-contact-home div button:nth-child(2){
+            font-size: 1.35rem;
+        }
+        /* PÁGINA HOME */
+
+        /* PÁGINA SOBRE */
+        .about-page .about-section .about-content .div-about .img-about{
+            height: 900px;
+        }
+        .about-page .about-section .slogan{
+            font-size: 3rem; 
+        }
+        .about-page .about-section .about-content .div-about-2 h2{
+            font-size: 2rem;
+        }
+        .about-page .about-section .about-content .div-about-2 h3{
+            font-size: 2.5rem;
+        }
+        .about-page .about-section .about-content .div-about-2 p{
+            font-size: 1.4rem;
+        }
+        .about-page .about-section .about-content .item-expanded-about div{
+            max-width: 900px;
+        }
+        .about-page .about-section .about-content .item-expanded-about div h4{
+            font-size: 2rem;
+        }
+        .about-page .about-section .about-content .item-expanded-about div p{
+            font-size: 1.5rem;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about{
+            width: 150px;
+            height: 150px;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about i{
+            font-size: 4rem;
+        }
+        .about-page .about-section .about-content .div-about-2 .div-item-about .key-item-about .item-about h4{
+            font-size: 1.5rem;
+        }
+
+        .about-page .about-section-2 .text-about-section-2 div h3{
+            font-size: 3.5rem;
+        }
+        .about-page .about-section-2 .text-about-section-2 div p{
+            font-size: 1.7rem;
+        }
+        .about-page .about-section-2 .text-about-section-2 div button{
+            font-size: 1.4rem;
+            height: 50px;
+        }
+        /* PÁGINA SOBRE */
+
+        /* PÁGINA BLOG */
+        .blog-page .blog-content .content .item-blog .text-item h2{
+            font-size: 1.8rem;
+        }
+        .blog-page .blog-content .content .item-blog .text-item p{
+            font-size: 1.3rem;
+        }
+        .blog-page .blog-content .content .item-blog .links-item button{
+            height: 35px;
+        }
+        .blog-page .blog-content .content .item-blog .links-item button a{
+            font-size: 1.15rem;
+        }
+        .blog-page .blog-content .content .item-blog .img-item p{
+            font-size: 0.9rem;
+        }
+        /* PÁGINA BLOG */
+
+        /* PÁGINA POST DO BLOG */
+        .blog-page .blog-content .content-post .item-blog-full .author-item{
+            font-size: 1.1rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item h2{
+            font-size: 3rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item h3{
+            font-size: 2.5rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item p{
+            font-size: 1.4rem;
+        }
+        .blog-page .blog-content .content-post .item-blog-full .text-item ul,
+        .blog-page .blog-content .content-post .item-blog-full .text-item ol{
+            font-size: 1.4rem;
+        }
+        /* PÁGINA POST DO BLOG */
+
+        /* PÁGINA COMERCIALIZAÇÃO */
+        .service-page .service-section .service-filter button{
+            font-size: 1.2rem;
+        }
+        .service-page .service-section .service-titles h2{
+            font-size: 2rem;
+        }
+        .service-page .service-section .service-titles h3{
+            font-size: 1.6rem;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text h4{
+            font-size: 1.8rem;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text h5{
+            font-size: 1.5rem;
+        }
+        .service-page .service-section .service-wrapper .service-content .service-text p{
+            font-size: 1.35rem;
+        }
+
+        .service-page .service-contact .div-contact-service h2{
+            font-size: 3.5rem;
+        }
+        .service-page .service-contact .div-contact-service p{
+            font-size: 1.5rem;
+        }
+        .service-page .service-contact .div-contact-service div button:nth-child(1),
+        .service-page .service-contact .div-contact-service div button:nth-child(2){
+            font-size: 1.35rem;
+        }
+        /* PÁGINA COMERCIALIZAÇÃO */
+    
+        /* PÁGINA CONTATO */
+        .contact-page .contact-content .form-contact form .formGroup label{
+            font-size: 1.1rem;
+        }
+        .contact-page .contact-content .form-contact form .formGroup button{
+            font-size: 1.1rem;
+        }
+        .contact-page .contact-content .info-contact div p{
+            font-size: 1.3rem;
+        }
+        .contact-page .contact-content .info-contact .item-contact a .info p{
+            font-size: 1.2rem;
+        }
+
+        /* PÁGINA CONTATO */
+    }
+
+}
