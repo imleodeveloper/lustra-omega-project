@@ -3102,6 +3102,7 @@ footer .footer-column .list-footer li{
 }
 footer .footer-column .list-footer a{
   text-decoration: none;
+  color: unset;
 }
 footer .footer-column .list-footer li:hover{
   color: #007cba;
