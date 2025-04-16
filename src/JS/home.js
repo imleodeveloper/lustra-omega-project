@@ -2,7 +2,7 @@
 const itemSlide = [
     {
       id: 1,
-      image: "/public/img-slider-one.jpeg",
+      image: "/public/img-slider-one.webp",
       alt: "Imagem primeiro slide - Líderes na comercialização de tecidos, produtos de limpeza industrial e equipamentos de proteção individual (EPI).",
       title: "Lustra Ômega - Líderes na comercialização de tecidos, produtos de limpeza industrial e equipamentos de proteção individual",
       heading: "Líderes na comercialização de tecidos, produtos de limpeza industrial e equipamentos de proteção individual.",  
@@ -10,7 +10,7 @@ const itemSlide = [
     },
     {
       id: 2,
-      image: "/public/img-slider-two-2.jpg",
+      image: "/public/img-slider-two-2.webp",
       alt: "Imagem segundo slide - Líderes na comercialização de tecidos, produtos de limpeza, descartáveis e EPI's",
       title: "Lustra Ômega - Fale conosco", 
       heading: "Fale conosco",
@@ -21,7 +21,7 @@ const itemSlide = [
     },
     {
       id: 3,
-      image: "/public/img-slider-three.jpg",
+      image: "/public/img-slider-three.webp",
       alt: "Imagem terceiro slide - Líderes na fabricação de panos",
       title: "Lustra Ômega - Líderes na fabricação de panos para limpeza industrial e doméstica",
       heading: "Logística rápida e segura",
