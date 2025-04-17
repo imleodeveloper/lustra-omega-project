@@ -335,7 +335,14 @@ document.addEventListener("DOMContentLoaded", function() {
     if (post) {
 
         //Troca a imagem do title
-        document.querySelector(".blog-title-post").style.setProperty("--bg-image", `url(${post.img})`);
+        const blogTitle = document.querySelector(".blog-title-post");
+        const imgTitle = document.createElement("img");
+        imgTitle.classList.add("bg-img");
+        imgTitle.setAttribute("src", `${post.img}`);
+        imgTitle.setAttribute("alt", "Banner do blog");
+        imgTitle.setAttribute("loading", "eager");
+        blogTitle.appendChild(imgTitle);
+
         const h1Title = document.querySelector(".title");
         h1Title.textContent = (`${post.title}`);
 
