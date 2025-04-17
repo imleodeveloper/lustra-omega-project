@@ -70,8 +70,8 @@ function renderPosts(){
         itemBlog.innerHTML = `
             <span class="img-item">
                 <div>
-                    <img src="${post.img}" alt="Imagem ilustrativa feita por IA - Lustra Ômega">
-                    <img src="../../public/logo_lustra_white.png" alt="Logo com letras brancas - Lustra Ômega" class="logo-item">
+                    <img src="${post.img}" alt="Imagem ilustrativa feita por IA - Lustra Ômega" loading="lazy">
+                    <img src="../../public/logo_lustra_white.webp" alt="Logo com letras brancas - Lustra Ômega" class="logo-item" loading="lazy">
                 </div>
                 <p>Por ${post.author} | ${post.date} | Blog</p>
             </span>

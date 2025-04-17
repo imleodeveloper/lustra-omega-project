@@ -90,6 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 src="${service.img}" 
                                 alt="${service.title}" 
                                 title="${service.title}"
+                                loading="lazy"
                             >
                         </span>
                     </div>
