@@ -57,6 +57,7 @@ const itemSlide = [
           alt="${slide.alt}"
           title="${slide.title}"
           class="img-slide"
+          loading="lazy"
         >
         <div class="${slide.className}">
           ${slide.id === 2 ? `
