@@ -255,12 +255,12 @@
 
 
         /* FOOTER */
-        footer{
+        footer .footer-container{
             flex-direction: column;
             gap: 10px;
             padding-bottom: 100px;
         }
-        footer .footer-column{
+        footer .footer-container .footer-column{
             width: 100%;
             height: auto;
             padding-left: 10px;
@@ -525,12 +525,12 @@
         /* PÁGINA AGRADECIMENTO */
 
         /* FOOTER */
-        footer{
+        footer .footer-container{
             flex-direction: column;
             gap: 10px;
             padding-bottom: 100px;
         }
-        footer .footer-column{
+        footer .footer-container .footer-column{
             width: 100%;
             height: auto;
             padding-left: 20px;
@@ -679,14 +679,14 @@
         /* PÁGINA BLOG */
 
         /* FOOTER */
-        footer{
+        footer .footer-container{
             flex-direction: row;
             padding: unset;
             gap: 50px;
         }
-        footer .footer-column{
+        footer .footer-container .footer-column{
             width: 25%;
-            height: 400px;
+            height: 200px;
             padding-left: unset;
         }
         /* FOOTER */
@@ -904,10 +904,10 @@
         /* PÁGINA PRIVACIDADE */
 
         /* FOOTER */
-        footer .footer-column h2{
+        footer .footer-container .footer-column h2{
             font-size: 1.4rem;
         }
-        footer .footer-column .list-footer li{
+        footer .footer-container .footer-column .list-footer li{
             font-size: 1.15rem;
         }
         /* FOOTER */
@@ -951,7 +951,7 @@
         /* PÁGINA BLOG */
 
         /* FOOTER */
-        footer .footer-column .logo-footer{
+        footer .footer-container .footer-column .logo-footer{
             width: 350px;
             height: auto;
         }
