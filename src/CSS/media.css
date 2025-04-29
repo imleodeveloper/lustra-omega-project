@@ -265,6 +265,10 @@
             height: auto;
             padding-left: 10px;
         }
+
+        footer .rights{
+            width: 70%;
+          }
         /* FOOTER */
         
     }
