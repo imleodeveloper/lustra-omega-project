@@ -89,6 +89,7 @@ document.addEventListener('click', (event) => {
     }
 });
 
+//ANIMAÇÕES
 document.addEventListener("DOMContentLoaded", () => {
 
     //SEÇÃO PÁGINA SOBRE

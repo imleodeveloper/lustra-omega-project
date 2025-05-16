@@ -18,7 +18,7 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!--STYLE E MEDIA CSS-->
-    <link rel="stylesheet" href="../style.css?v=28">
+    <link rel="stylesheet" href="../style.css?v=29">
     <link rel="stylesheet" href="../src/CSS/media.css?v=24">
     <!--FONTE NUNITO E POPPINS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,17 +86,18 @@
                 <div class="form-contact">
                     <form id="contact-form">
                         <div class="formGroup">
-                            <label for="nome">Seu nome</label>
+                            <label for="nome">Seu nome <span class="error-name">Informe seu nome completo:</span></label>
                             <input type="text" name="nome" id="nome" required>
                         </div>
                         <div class="formGroup">
-                            <label for="telefone">Seu telefone</label>
+                            <label for="telefone">Seu telefone <span class="tel-required">Preencha com os números corretos (DD) 91234-5678:</span></label>
                             <input type="tel" name="telefone" id="telefone" required>
                         </div>
                         <div class="formGroup">
-                            <label for="email">Seu e-mail</label>
+                            <label for="email">Seu e-mail <span class="error-email">Preencha o e-mail corretamente:</span></label>
                             <input type="email" name="email" id="email" required>
                         </div>
+                        
                         <div class="formGroup">
                             <label for="CEP">Seu CEP</label>
                             <input type="number" name="CEP" id="CEP">
@@ -113,7 +114,7 @@
                             <div class="g-recaptcha" data-sitekey="6LdtNQ0rAAAAAKoREWmz8D_M65BIpAePV6LhUAo4"></div>
                         </div>
                         <div class="formGroup" style="align-items: center;">
-                            <button type="submit">Enviar</button>
+                            <button type="submit" id="button-submit">Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -198,7 +199,7 @@
         </div>        
     </footer> 
     <!--CONTATO.JS-->
-    <script src="/src/JS/contact.js?v=3"></script>
+    <script src="/src/JS/contact.js?v=4"></script>
 
     <!--BUTTON WHATSAPP-->
     <script src="/src/JS/whatsappBtn.js?v=2"></script>

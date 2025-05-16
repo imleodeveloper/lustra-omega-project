@@ -155,6 +155,56 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
 });
 
+/* *********************************** ERRO SE NÃO HOUVER TEXTOS NAS INPUTS @EMAIL.COM CORRETO ************/
+document.addEventListener("DOMContentLoaded", () => {
+    const inputName = document.querySelector("#nome");
+    const inputTel = document.querySelector("#telefone");
+    const inputEmail = document.querySelector("#email");
+    const nameError = document.querySelector(".error-name");
+    const emailError = document.querySelector(".error-email");
+    const telError = document.querySelector(".tel-required");
+    
+    inputName.addEventListener("change", () => {
+        if(inputName.value.trim().length > 6){
+            nameError.classList.remove("visible");
+        } else{
+            nameError.classList.add("visible");
+        }
+    });
+
+    inputTel.addEventListener("change", () => {
+        const checkTel = (tel) => {
+            const telValid = /^\(?\d{2}\)?\s?9\d{4}-?\d{4}$/;
+            return telValid.test(tel);
+        }
+        const checkInputTel = checkTel(inputTel.value);
+
+        if(!checkInputTel){
+            telError.classList.add("visible");
+        }else{
+            telError.classList.remove("visible");
+        }
+    })
+
+    inputEmail.addEventListener("change", () => {
+        const checkEmail = (email) => {
+            const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailValid.test(email);
+        }
+        const checkInputEmail = checkEmail(inputEmail.value);
+        if(checkInputEmail){
+            emailError.classList.remove("visible");
+        } else{
+            emailError.classList.add("visible");
+        }
+    })
+})
+/* *********************************** ERRO SE NÃO HOUVER TEXTOS NAS INPUTS @EMAIL.COM CORRETO ************/
+
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
 

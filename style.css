@@ -2559,6 +2559,20 @@ input[type="number"] {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.contact-page .contact-content .form-contact form .formGroup label .tel-required,
+.contact-page .contact-content .form-contact form .formGroup label .error-email,
+.contact-page .contact-content .form-contact form .formGroup label .error-name{
+  color: red;
+  text-transform: none;
+  font-size: 0.85rem;
+  display: none;
+}
+.contact-page .contact-content .form-contact form .formGroup label .tel-required.visible,
+.contact-page .contact-content .form-contact form .formGroup label .error-email.visible,
+.contact-page .contact-content .form-contact form .formGroup label .error-name.visible{
+  display: block;
+}
 .contact-page .contact-content .form-contact form .formGroup button{
   width: 50%;
   height: 50px;
